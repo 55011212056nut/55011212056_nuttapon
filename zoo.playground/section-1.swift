@@ -1,20 +1,22 @@
 class zoo {
-    let animal : [String] = ["Frog","Turtle","Bird"]
-    let food   : [String] = ["Bug","Fruit","Worm"]
+    let animal : [String] = ["Snake","Cow","Bird"]
+    let food   : [String] = ["Rat","grass","bug"]
     let animal1:String
+    
     init(animal: String){
+        
         self.animal1 = animal
     }
-    func funcZoo() -> String {
-        var st: String = ""
+    func ZooZoo() -> String {
+        var anser: String = ""
         for(var i=0; i < animal.count ; i++){
             if(animal[i] == animal1){
-                st = food[i];
+                anser = food[i];
             }
         }
-        return st
+        return anser
     }
     
 }
-let zoo1 = zoo(animal: "Turtle")
-zoo1.funcZoo()
+let zoo1 = zoo(animal: "Bird")
+zoo1.ZooZoo()
