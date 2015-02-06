@@ -8,7 +8,7 @@ class cal{
   
     init(num1:Double,num2:Double,st:String){
        
-        self.num1 = num1
+         self.num1 = num1
         self.num2 = num2
         self.st = st
         
@@ -90,7 +90,7 @@ class cal{
     
     
 }
-let cal2=cal( num1:5, num2:10,st: "/")
+let cal2=cal( num1:5, num2:5,st: "*")
 cal2.calcal()
 
 
