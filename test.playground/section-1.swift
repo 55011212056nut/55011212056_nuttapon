@@ -3,12 +3,18 @@
 import UIKit
 
 let x=5
-let y=10
-var aa = x+y
+let y=10.5
+
+var aa = Double(x)+y
 
 
 let p:Int = -19.99
 let ggg:Double = -19.99
+
+var cc:Double = 0.0
+
+
+//cc = p + ggg
 
 var shop = [String]()
  shop = ["a","bfff"]
